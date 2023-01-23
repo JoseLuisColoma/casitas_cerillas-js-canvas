@@ -1,0 +1,35 @@
+
+
+
+
+@charset "utf-8";
+body{
+	font-family: 'Courier New', Courier, monospace;
+	font: size 14px;
+}
+canvas{
+	border:2px solid green;
+}
+
+h2{
+    font-family: 'Arial';
+    color: tomato;
+}
+
+div span{
+  
+	font-size: 28px;
+    color: green;
+    font-weight: bold;
+
+}
+
+.estiloBotones {
+    background-color: khaki;
+    font-family: 'Arial';
+    color: tomato;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+  }

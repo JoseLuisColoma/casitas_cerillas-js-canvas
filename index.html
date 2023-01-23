@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Casita de fósforos</title>
+	<meta name="description" content="HTML5, CSS3">
+	<meta name="author" content="Jose Luis Coloma">
+    <link rel="stylesheet" href="css/CSS_casitas.css">
+    <script src="js/JS_casitas.js"></script>
+</head>
+<body>
+    <h2>CASITAS DE CERILLAS</h2>
+    &nbsp;--> Nº CASITAS&nbsp; <input type="number" id="input_casitas" size="5" min="1" max="15" value="1" onkeydown="return false">
+    <i>indica primero el número de casitas a dibujar. Máximo:15.</i>
+    <br><br>
+    <div>
+        &nbsp;--> TOTAL CERILLAS UTILIZADAS:&nbsp;
+        <span onload="calculoCerillas()" id="cerillasTotales"></span>
+    </div> 
+    <br>
+    <canvas id="lienzo" height="300" width="1500"></canvas>
+    <br><br>
+    &nbsp;&nbsp;&nbsp;<button type="button" onclick="dibujaCasitaCerillas()" id="btnResolver" class="estiloBotones">HACER CASITAS</button>&nbsp;&nbsp;&nbsp;
+   <button type="button" onclick="limpiar()" class="estiloBotones">LIMPIAR</button>
+</body>
+</html>
